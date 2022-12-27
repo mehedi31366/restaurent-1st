@@ -33,7 +33,7 @@
     text-align: center;
 }
 * {
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* bannar section */
@@ -53,14 +53,21 @@
 }
 /* menu card */
 .card{
-    height: 300px;
-    width: 215px;
     border: 1px solid lightgrey;
-    box-shadow:0 2px 4px rgb(3 74 40 / 15%);;
+    
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20;
-    cursor: pointer;
-    flex-direction: column;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow:5px 5px 5px rgb(3 74 40 / 15%);
+}
+.card img{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* talkback section  */
